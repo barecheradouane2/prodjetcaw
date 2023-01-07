@@ -1,0 +1,225 @@
+/* Contacts and blogs style */
+
+table {
+     border-collapse: collapse;
+     width: 98%;
+     margin-left: 10px;
+   }
+   
+   th, td {
+     text-align: left;
+     padding: 10px;
+   }
+   
+   tr:nth-child(even) {
+     background-color: rgb(206, 199, 199);
+   }
+   
+   th {
+     background-color: #4caf50;
+     color: white;
+   }
+   
+   /* Create contact and blog */
+
+   .title{
+    margin-left: 20px;
+    
+   }
+   .create-button {
+     background-color: #4caf50;
+     border: none;
+     color: white;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 14px;
+     margin: 4px 2px;
+     cursor: pointer;
+     width: 49%;
+   }
+   .create-contact {
+     background-color: #4caf50;
+     border: none;
+     color: white;
+     padding: 10px 20px;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 14px;
+     margin-left: 25%;
+     margin-top: 1%;
+     cursor: pointer;
+     width: 49%;
+   }
+   
+   .form-container {
+     border: 1px solid #f1f1f1;
+     padding: 16px;
+     margin-left: 23%;
+    margin-top: 1%;
+     width: 50%;
+   }
+   
+   input[type=text], input[type=date] {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: 2px solid #ccc;
+     border-radius: 4px;
+   }
+/* App Bar */
+   .app-bar {
+     display: flex;
+     align-items: center;
+     background-color: #333;
+     color: white;
+     height: 50px;
+   }
+   
+   .app-bar a {
+     color: white;
+     text-decoration: none;
+     padding: 0 15px;
+   }
+   
+   .page-name {
+     padding: 0 15px;
+   }
+   
+   .logo-appbar {
+     padding: 0 15px;
+     display: flex;
+     align-items: center;
+   }
+   
+   .logo-appbar img {
+     height: 40px;
+   }
+   
+   /* home page */
+   .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .logo {
+    margin-bottom: 50px;
+  }
+  
+  .logo img {
+    height: 200px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  body {
+    background: #A0D468;
+  }
+  input {
+    background-color: rgb(206, 199, 199);
+    color: black;
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 1px 10px;
+  }
+  
+  .search-container input[type='text'] {
+    width: 75%;
+    padding: 10px ;
+    border: 1px solid #333;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .search-container select {
+    width: 25%;
+    padding: 10px ;
+    margin:10px 7px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    background-color: rgb(206, 199, 199);
+    cursor: pointer;
+  }
+  /* date filter  */
+  .date-filter {
+    display: flex;
+    align-items: center;
+    margin-left: 27%;
+    width: 50%;
+  }
+  
+  .date-filter label {
+    margin-right: 1%;
+    margin-left:1%;
+  }
+  
+  .date-filter input[type="date"] {
+    width: 23%;
+  }
+  
+  .date-filter button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 2%;
+  }
+  
+  .date-filter button:hover {
+    background-color: #555;
+  }
+  /* comment */
+  .add-comment-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 17px;
+    font-size: 15px;
+    margin-top: 1%;
+    cursor: pointer;
+  }
+  
+  .add-comment-button:hover {
+    background-color: #469948;
+  }
+  .comment{
+    margin: 1% 1%;
+  }
+  
+  .comment input {
+    width: 97%;
+    padding: 12px 20px;
+    margin: 8px 15px;
+    box-sizing: border-box;
+    border: 2px solid #333;
+    border-radius: 4px;
+  }
+  
+  .comment input:focus {
+    border: 2px solid green;
+  }
+  

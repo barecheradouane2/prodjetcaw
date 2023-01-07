@@ -1,0 +1,105 @@
+h2 {
+     /*(0,0,1)*/
+
+     color: purple;
+}
+body {
+     /*(0,0,1)*/
+
+     background-color: #bdc3c7;
+}
+h1 {
+     /*(0,0,1)*/
+
+     color: #9b59b6;
+}
+h2 {
+     /*(0,0,1)*/
+
+     color: orange;
+}
+li {
+     /*(0,0,1)*/
+
+     color: blue;
+}
+p {
+     /*(0,0,1)*/
+
+     background-color: yellow;
+}
+input {
+     /*(0,0,1)*/
+
+     border: 3px;
+     border-style: solid;
+     color: red;
+}
+.hello {
+     /*(0,1,0)*/
+
+     background-color: pink;
+}
+#special {
+     /*(1,0,0)*/
+
+     border: 2px;
+     border-style: solid;
+     border-color: blue;
+}
+div p{
+     /*(0,0,2)*/
+
+     font-size: 25px;
+}
+input[type="text"]{
+     /*(0,1,1)*/
+
+     background-color: gray;
+}
+div:nth-child(5) > p{
+     /*(0,1,2)*/
+ 
+     background-color: pink;
+}
+
+div:nth-child(5) > p:nth-child(3){
+     /*(0,2,2)*/
+
+     border: 5px;
+     border-color: white;
+     border-style: solid;
+
+}
+em {
+     /*(0,0,1)*/
+
+     color: white;
+     font-size:20px
+}
+
+
+input:checked { 
+     /* (0,1,1) */
+     margin-left: 50px
+}
+
+label{
+     /*(0,0,1)*/
+text-transform: uppercase;
+}
+#special::first-letter{
+     /*(1,0,1)*/
+     color: green;
+     font-size: 100px;
+}
+h1:hover{
+     /*(0,1,1)*/
+
+     color: black;
+}
+a:visited{
+     /*(0,1,1)*/
+
+     color: gray;
+}
